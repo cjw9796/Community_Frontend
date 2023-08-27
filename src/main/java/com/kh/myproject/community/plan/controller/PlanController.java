@@ -30,6 +30,14 @@ public class PlanController {
         return "community/plan/plan_write";
     }
 
+    //일정 글 쓰기 카카오맵 실험
+    @GetMapping("/community/plan/write_kakaomap") // http://localhost:8070/community/plan/write_kakaomap
+    public String communityplanwritekakao() {
+
+
+        return "community/plan/plan_write_kakaomap";
+    }
+
 
 
 
