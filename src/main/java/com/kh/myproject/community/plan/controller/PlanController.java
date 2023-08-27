@@ -38,6 +38,16 @@ public class PlanController {
         return "community/plan/plan_write_kakaomap";
     }
 
+    /*
+    //일정 글 정보
+    @GetMapping("/community/plan/search") // http://localhost:8070/community/plan/search
+    public String communityplansearch() {
+
+        return "community/plan/plan_search";
+    }
+     */
+
+
 
 
 
